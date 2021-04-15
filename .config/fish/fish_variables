@@ -6,6 +6,7 @@ SETUVAR Z_DATA:/home/franck/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/home/franck/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/home/franck\x24
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_chsh:chsh\x20\x2ds\x20/bin/fish
 SETUVAR _fish_abbr_dk:docker
 SETUVAR _fish_abbr_dkc:docker\x2dcompose
 SETUVAR _fish_abbr_dkprune:docker\x20system\x20prune\x20\x2da\x20\x2df
@@ -13,7 +14,9 @@ SETUVAR _fish_abbr_dkrmc:docker\x20rm\x20\x28docker\x20ps\x20\x2da\x20\x2dq\x29\
 SETUVAR _fish_abbr_dkrmi:docker\x20rmi\x20\x28docker\x20images\x20\x2da\x20\x2dq\x29\x20\x2df
 SETUVAR _fish_abbr_dkrmn:docker\x20network\x20prune\x20\x2df
 SETUVAR _fish_abbr_dkrmv:docker\x20volume\x20prune\x20\x2df
-SETUVAR _fish_abbr_xprop:xprop\x7c\x20grep\x20WM_NAME
+SETUVAR _fish_abbr_fetch:pfetch
+SETUVAR _fish_abbr_system:screenfetch
+SETUVAR _fish_abbr_xprop:xprop
 SETUVAR _fish_abbr_xset:xset\x20r\x20rate\x20180\x2050
 SETUVAR _fisher_acomagu_2F_fish_2D_async_2D_prompt_files:/home/franck/\x2econfig/fish/conf\x2ed/__async_prompt\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:/home/franck/\x2econfig/fish/functions/__z\x2efish\x1e/home/franck/\x2econfig/fish/functions/__z_add\x2efish\x1e/home/franck/\x2econfig/fish/functions/__z_clean\x2efish\x1e/home/franck/\x2econfig/fish/functions/__z_complete\x2efish\x1e/home/franck/\x2econfig/fish/conf\x2ed/z\x2efish

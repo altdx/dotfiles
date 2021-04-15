@@ -147,20 +147,16 @@ assign [class="(?i)Discord*"] $ws1
 assign [class="jetbrains-idea"] $ws3
 assign [class="firefoxdeveloperedition"] $ws4
 assign [class="Notion"] $ws5
+assign [class="(?i)jetbrains space*"] $ws5
 # assign [class="figma-linux"] $ws6
 assign [class="Spotify|@molotov/desktop-wrapper"] $ws7
 
 # Open specific applications in floating mode
-for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Clipgrab"] floating enable border pixel 1
 for_window [class="Oblogout"] fullscreen enable border pixel 1
-for_window [title="File Transfer*"] floating enable border pixel 1
 for_window [class="GParted"] floating enable border pixel 1
-for_window [title="i3_help"] floating enable sticky enable border pixel 1
 for_window [class="Lightdm-settings"] floating enable border pixel 1
-# for_window [class="Manjaro-hello"] floating enable border pixel 1
 for_window [class="Manjaro Settings Manager"] floating enable border pixel 1
-for_window [title="MuseScore: Play Panel"] floating enable border pixel 1
 for_window [class="Nitrogen"] floating enable sticky enable border pixel 1
 for_window [class="qt5ct"] floating enable sticky enable border pixel 1
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border pixel 1
@@ -168,19 +164,24 @@ for_window [class="Simple-scan"] floating enable border pixel 1
 for_window [class="(?i)System-config-printer.py"] floating enable border pixel 1
 for_window [class="(?i)virtualbox"] floating enable border pixel 1
 # for_window [class="Opening .*"] floating enable border pixel 1
+for_window [class="(?i)epdfview*"] floating enable border pixel 1
+for_window [class="(?i)systemsettings5*"] floating enable border pixel 1
 for_window [class="Timeset-gui"] floating enable border pixel 1
 for_window [class="Xfburn|Calculator|Skype|Pavucontrol|octopi|Lxappearance|fpakman"] floating enable border pixel 1
 for_window [class="Pamac-manager|Org.gnome.Nautilus|Xarchiver|Viewnior|i3-frame"] floating enable border pixel 1
 for_window [class="@molotov/desktop-wrapper|Spotify|Cacher|1Password|dolphin"] floating enable border pixel 1
 for_window [class="Polkit-gnome-authentication-agent-1|manjaro-settings-manager"] floating enable border pixel 1
 for_window [class="KvantumViewer|Rofi|code-oss"] floating enable border pixel 1
-for_window [title="(?i)solaar*"] floating enable border pixel 1
-for_window [title="(?i)ranger*"] floating enable border pixel 1
+for_window [class="(?i)jetbrains space*"] floating enable border pixel 1
+
+for_window [title="alsamixer"] floating enable border pixel 1
+for_window [title="File Transfer*"] floating enable border pixel 1
+for_window [title="i3_help"] floating enable sticky enable border pixel 1
+for_window [title="MuseScore: Play Panel"] floating enable border pixel 1
 for_window [title="(?i)ulauncher*"] floating enable
 for_window [title="(?i)wps*"] floating enable border pixel 1
-for_window [title="(?i)boostnote*"] floating enable border pixel 1
 for_window [title="(?i)calculator*"] floating enable border pixel 1
-for_window [title="(?i)system settings*"] floating enable border pixel 1
+for_window [title="(?i)boostnote*"] floating enable border pixel 1
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -259,11 +260,11 @@ exec_always --no-startup-id ulauncher
 new_window 1pixel
 
 # Set inner/outer gaps
-gaps inner 0
+gaps inner 5
 gaps outer 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)
-# smart_gaps on
+smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
