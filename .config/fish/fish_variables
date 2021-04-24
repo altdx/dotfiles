@@ -15,6 +15,7 @@ SETUVAR _fish_abbr_dkrmi:docker\x20rmi\x20\x28docker\x20images\x20\x2da\x20\x2dq
 SETUVAR _fish_abbr_dkrmn:docker\x20network\x20prune\x20\x2df
 SETUVAR _fish_abbr_dkrmv:docker\x20volume\x20prune\x20\x2df
 SETUVAR _fish_abbr_fetch:pfetch
+SETUVAR _fish_abbr_htop:htop
 SETUVAR _fish_abbr_system:screenfetch
 SETUVAR _fish_abbr_xprop:xprop
 SETUVAR _fish_abbr_xset:xset\x20r\x20rate\x20180\x2050

@@ -16,7 +16,8 @@ abbr dkprune 'docker system prune -a -f'
 
 # Aliases - Others
 abbr xset 'xset r rate 180 50'
-abbr xprop 'xprop'
+# abbr xprop 'xprop'
 abbr chsh 'chsh -s /bin/fish'
 abbr system 'screenfetch'
 abbr fetch 'pfetch'
+abbr htop 'htop'
