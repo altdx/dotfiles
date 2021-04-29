@@ -141,69 +141,55 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-assign [class="TelegramDesktop|Signal|Slack|Microsoft Teams - Preview"] $ws1
-assign [class="(?i)Discord*"] $ws1
-# assign [class="Postman"] $ws2
+assign [class="Signal"] $ws1
+assign [class="TelegramDesktop"] $ws1
+assign [class="discord"] $ws1
+assign [class="(?i)todoist"] $ws2
+assign [class="(?i)standard notes"] $ws2
+assign [class="(?i)bluemail"] $ws2
+
 assign [class="jetbrains-idea"] $ws3
-assign [class="firefoxdeveloperedition"] $ws4
-assign [class="(?i)notion"] $ws5
-assign [class="(?i)standard notes"] $ws5
-assign [class="(?i)jetbrains space*"] $ws5
-assign [class="(?i)bluemail*"] $ws5
-assign [class="(?i)figma-linux"] $ws6
-assign [class="(?i)spotify"] $ws7
+
 assign [class="(?i)@molotov/desktop-wrapper"] $ws7
 
 # Open specific applications in floating mode
-for_window [class="Clipgrab"] floating enable border pixel 1
-for_window [class="Oblogout"] fullscreen enable border pixel 1
-for_window [class="GParted"] floating enable border pixel 1
-for_window [class="Lightdm-settings"] floating enable border pixel 1
-for_window [class="Manjaro Settings Manager"] floating enable border pixel 1
-for_window [class="Nitrogen"] floating enable sticky enable border pixel 1
-for_window [class="qt5ct"] floating enable sticky enable border pixel 1
-for_window [class="Qtconfig-qt4"] floating enable sticky enable border pixel 1
-for_window [class="Simple-scan"] floating enable border pixel 1
+for_window [class="(?i)Clipgrab"] floating enable border pixel 1
+for_window [class="(?i)Oblogout"] fullscreen enable border pixel 1
+for_window [class="(?i)GParted"] floating enable border pixel 1
+for_window [class="(?i)Lightdm-settings"] floating enable border pixel 1
+for_window [class="(?i)Manjaro Settings Manager"] floating enable border pixel 1
+for_window [class="(?i)Nitrogen"] floating enable sticky enable border pixel 1
+for_window [class="(?i)qt5ct"] floating enable sticky enable border pixel 1
+for_window [class="(?i)Qtconfig-qt4"] floating enable sticky enable border pixel 1
+for_window [class="(?i)Simple-scan"] floating enable border pixel 1
 for_window [class="(?i)System-config-printer.py"] floating enable border pixel 1
-for_window [class="(?i)virtualbox"] floating enable border pixel 1
-# for_window [class="Opening .*"] floating enable border pixel 1
+# for_window [class="(?i)Opening .*"] floating enable border pixel 1
 for_window [class="(?i)epdfview*"] floating enable border pixel 1
 for_window [class="(?i)systemsettings5*"] floating enable border pixel 1
-for_window [class="Timeset-gui"] floating enable border pixel 1
-for_window [class="Xfburn"] floating enable border pixel 1
-for_window [class="Calculator"] floating enable border pixel 1
-for_window [class="Skype"] floating enable border pixel 1
+for_window [class="(?i)Timeset-gui"] floating enable border pixel 1
+for_window [class="(?i)Calculator"] floating enable border pixel 1
 for_window [class="(?i)pavucontrol"] floating enable border pixel 1
-for_window [class="octopi"] floating enable border pixel 1
-for_window [class="Lxappearance"] floating enable border pixel 1
-for_window [class="fpakman"] floating enable border pixel 1
-for_window [class="Pamac-manager"] floating enable border pixel 1
-for_window [class="Org.gnome.Nautilus"] floating enable border pixel 1
-for_window [class="Xarchiver"] floating enable border pixel 1
-for_window [class="Viewnior"] floating enable border pixel 1
-for_window [class="i3-frame"] floating enable border pixel 1
-for_window [class="@molotov/desktop-wrapper"] floating enable border pixel 1
-for_window [class="(?i)spotify"] floating enable border pixel 1
-for_window [class="(?i)cacher"] floating enable border pixel 1
+for_window [class="(?i)Lxappearance"] floating enable border pixel 1
+for_window [class="(?i)fpakman"] floating enable border pixel 1
+for_window [class="(?i)Pamac-manager"] floating enable border pixel 1
+for_window [class="(?i)Org.gnome.Nautilus"] floating enable border pixel 1
+for_window [class="(?i)Xarchiver"] floating enable border pixel 1
+for_window [class="(?i)Viewnior"] floating enable border pixel 1
+for_window [class="(?i)i3-frame"] floating enable border pixel 1
+for_window [class="(?i)@molotov/desktop-wrapper"] floating enable border pixel 1
 for_window [class="(?i)1password"] floating enable border pixel 1
-for_window [class="(?i)dolphin"] floating enable border pixel 1
 for_window [class="(?i)polkit-gnome-authentication-agent-1"] floating enable border pixel 1
 for_window [class="(?i)manjaro-settings-manager"] floating enable border pixel 1
 for_window [class="(?i)kvantumviewer"] floating enable border pixel 1
 for_window [class="(?i)rofi"] floating enable border pixel 1
 for_window [class="(?i)code-oss"] floating enable border pixel 1
-for_window [class="(?i)jetbrains space*"] floating enable border pixel 1
-#for_window [class="(?i)standard notes*"] floating enable border pixel 1
-#for_window [class="(?i)bluemail*"] floating enable border pixel 1
-#for_window [class="stacer"] floating enable border pixel 1
-for_window [title="alsamixer"] floating enable border pixel 1
+for_window [class="(?i)jetbrains space"] floating enable border pixel 1
+for_window [class="(?i)firefoxdeveloperedition"] floating enable border pixel 1
 for_window [title="File Transfer*"] floating enable border pixel 1
 for_window [title="i3_help"] floating enable sticky enable border pixel 1
-for_window [title="MuseScore: Play Panel"] floating enable border pixel 1
-for_window [title="(?i)ulauncher*"] floating enable
-for_window [title="(?i)wps*"] floating enable border pixel 1
-for_window [title="(?i)calculator*"] floating enable border pixel 1
-for_window [title="(?i)boostnote*"] floating enable border pixel 1
+for_window [title="(?i)ulauncher"] floating enable
+for_window [title="(?i)wps"] floating enable border pixel 1
+for_window [title="(?i)calculator"] floating enable border pixel 1
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus

@@ -1,0 +1,266 @@
+2021-04-29 17:18:38,510 | INFO | ulauncher: main() | Ulauncher version 5.9.0
+2021-04-29 17:18:38,510 | INFO | ulauncher: main() | Extension API version 2.0.0
+2021-04-29 17:18:38,510 | INFO | ulauncher: main() | GTK+ 3.24.29
+2021-04-29 17:18:38,510 | INFO | ulauncher: main() | Is Wayland: False
+2021-04-29 17:18:38,510 | INFO | ulauncher: main() | Wayland compatibility: off
+2021-04-29 17:18:38,523 | DEBUG | ulauncher.ui.windows.Builder: __init__() | consider using a pythonic name instead of design name 'input-box'
+2021-04-29 17:18:38,525 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','destroy', 'on_destroy'
+2021-04-29 17:18:38,525 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_in_event', 'on_focus_in_event'
+2021-04-29 17:18:38,525 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_out_event', 'on_focus_out_event'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'input','key_press_event', 'on_input_key_press_event'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_input_changed'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_about_activate'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_close_activate'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_preferences_activate'
+2021-04-29 17:18:38,526 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_preferences_dialog_destroyed'
+2021-04-29 17:18:38,527 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:18:38,527 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:18:38,529 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:18:38,529 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:18:38,538 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-04-29 17:18:38,540 | INFO | ulauncher.search.apps.app_watcher: start() | Started scanning desktop dirs
+2021-04-29 17:18:38,540 | INFO | ulauncher.api.server.ExtensionServer: _start_thread() | Starting WS server on port 5054
+2021-04-29 17:18:38,550 | INFO | ulauncher.api.server.ExtensionDownloader: download_missing() | Downloading missing extension com.github.ulauncher.ulauncher-kill
+2021-04-29 17:18:38,560 | ERROR | ulauncher.api.server.ExtensionDownloader: download_missing() | URLError: <urlopen error [Errno -2] Name or service not known>
+2021-04-29 17:18:38,561 | INFO | ulauncher.api.server.ExtensionDownloader: download_missing() | Downloading missing extension com.github.ulauncher.ulauncher-emoji
+2021-04-29 17:18:38,564 | ERROR | ulauncher.api.server.ExtensionDownloader: download_missing() | URLError: <urlopen error [Errno -2] Name or service not known>
+2021-04-29 17:18:38,565 | INFO | ulauncher.api.server.ExtensionDownloader: download_missing() | Downloading missing extension com.github.rkarami.ulauncher-gitmoji
+2021-04-29 17:18:38,568 | ERROR | ulauncher.api.server.ExtensionDownloader: download_missing() | URLError: <urlopen error [Errno -2] Name or service not known>
+2021-04-29 17:18:38,574 | INFO | ulauncher.ui.windows.UlauncherWindow: bind_show_app_hotkey() | Trying to bind app hotkey: <Super>space
+2021-04-29 17:18:38,575 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 86 apps in cache
+2021-04-29 17:18:38,576 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/franck/.local/share/applications/userapp-Thunderbird.desktop": constructor returned NULL
+2021-04-29 17:18:38,576 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/franck/.local/share/applications/userapp-Pale Moon.desktop": constructor returned NULL
+2021-04-29 17:18:38,587 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 88 apps in the system
+2021-04-29 17:18:38,587 | INFO | ulauncher.search.apps.app_watcher: start() | Scanned desktop dirs in 0.05 seconds
+2021-04-29 17:18:38,593 | DEBUG | ulauncher.search.apps.app_watcher: start() | Start watching desktop files...
+2021-04-29 17:18:41,822 | WARNING | ulauncher.utils.image_loader: load_image() | Could not load image /usr/share/icons/Humanity/devices/48/printer.svg. E: g-file-error-quark: Failed to open file “/usr/share/icons/Humanity/devices/48/printer.svg”: No such file or directory (4)
+2021-04-29 17:18:41,873 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:18:41,908 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:18:42,085 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:18:42,172 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 17:18:42,851 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Firefox Developer Edition (/usr/share/applications/firefox-developer-edition.desktop)
+2021-04-29 17:18:42,865 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:19:31,184 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:19:31,184 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:19:31,184 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:19:31,184 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:19:31,199 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:21:57,708 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:21:57,708 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:21:57,708 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:21:57,708 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:21:57,719 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:21:58,417 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:21:58,820 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:21:58,960 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:21:59,080 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 17:21:59,536 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Firefox Developer Edition (/usr/share/applications/firefox-developer-edition.desktop)
+2021-04-29 17:21:59,551 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:22:41,692 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:22:41,692 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:22:41,692 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:22:41,692 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:22:41,701 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:22:41,916 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:22:42,182 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 9 results
+2021-04-29 17:22:42,250 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:22:42,371 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:22:42,540 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Code - OSS (/usr/share/applications/code-oss.desktop)
+2021-04-29 17:22:42,551 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:23:28,527 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:23:28,527 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:23:28,528 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:23:28,528 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:23:28,540 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:23:59,405 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:23:59,405 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:23:59,405 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:23:59,405 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:23:59,412 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:11,854 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:11,854 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:11,855 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:11,855 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:11,866 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:26,222 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:26,222 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:26,222 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:26,222 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:26,232 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:32,332 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:32,332 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:32,332 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:32,332 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:32,343 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:32,885 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:24:33,046 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 17:24:33,098 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 17:24:33,224 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 17:24:33,666 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_m3zu_wvs
+2021-04-29 17:24:33,677 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:34,671 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_m3zu_wvs
+2021-04-29 17:24:35,013 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:35,013 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:35,013 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:35,013 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:35,025 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:35,382 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 7 results
+2021-04-29 17:24:35,576 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 17:24:36,053 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:24:36,445 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_7hdvh2g8
+2021-04-29 17:24:36,456 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:37,450 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_7hdvh2g8
+2021-04-29 17:24:43,020 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:43,020 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:43,021 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:24:43,021 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:24:43,028 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:24:43,440 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:24:43,628 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:24:43,741 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:24:43,866 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 17:24:44,470 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Firefox Developer Edition (/usr/share/applications/firefox-developer-edition.desktop)
+2021-04-29 17:24:44,484 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:25:50,039 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:25:50,039 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:25:50,039 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:25:50,039 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:25:50,046 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:25:53,341 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:25:53,342 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:25:53,342 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:25:53,342 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:25:53,349 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:25:54,067 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 17:25:54,247 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 17:25:54,310 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:25:54,458 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 17:25:54,875 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Firefox Developer Edition (/usr/share/applications/firefox-developer-edition.desktop)
+2021-04-29 17:25:54,888 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:49:45,153 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:49:45,153 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:49:45,154 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:49:45,154 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:49:45,165 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:49:46,370 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:49:46,523 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 17:49:46,624 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:49:46,894 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:49:47,031 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:49:47,198 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 2 results
+2021-04-29 17:49:47,402 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 17:49:47,574 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Discord (/usr/share/applications/discord.desktop)
+2021-04-29 17:49:47,588 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:52:00,918 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:52:00,918 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:52:00,919 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 17:52:00,919 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 17:52:00,930 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 17:52:02,185 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application 1Password (/usr/share/applications/1password.desktop)
+2021-04-29 18:00:20,896 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:00:20,897 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:00:20,897 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:00:20,897 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:00:20,909 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:00:21,339 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 18:00:21,526 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:00:21,589 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 18:00:21,819 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 18:00:22,252 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application IntelliJ IDEA Ultimate Edition (/usr/share/applications/jetbrains-idea.desktop)
+2021-04-29 18:00:22,266 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:00:34,249 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:00:34,249 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:00:34,249 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:00:34,249 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:00:34,257 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:00:36,317 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 9 results
+2021-04-29 18:00:36,432 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:00:36,509 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:00:39,165 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_wpma5jfs
+2021-04-29 18:00:39,177 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:00:40,170 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_wpma5jfs
+2021-04-29 18:02:27,602 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:02:27,602 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:02:27,603 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:02:27,603 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:02:27,620 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:02:28,724 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:02:28,849 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-04-29 18:02:28,943 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:02:29,335 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Discord (/usr/share/applications/discord.desktop)
+2021-04-29 18:02:29,350 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:05:23,384 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:05:23,384 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:05:23,392 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:05:23,392 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:05:23,404 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:05:23,800 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 18:05:23,985 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:05:24,163 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 2 results
+2021-04-29 18:05:24,401 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Add/Remove Software (/usr/share/applications/org.manjaro.pamac.manager.desktop)
+2021-04-29 18:05:24,406 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:06:58,134 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:06:58,134 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:06:58,134 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:06:58,134 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:06:58,140 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:06:58,547 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 18:06:58,741 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:06:58,927 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 2 results
+2021-04-29 18:06:59,126 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Add/Remove Software (/usr/share/applications/org.manjaro.pamac.manager.desktop)
+2021-04-29 18:06:59,135 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:14:05,786 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:14:05,786 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:14:05,787 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:14:05,787 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:14:05,798 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:14:06,094 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:14:06,286 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:14:06,507 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:14:06,587 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 18:14:06,982 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Files (/usr/share/applications/org.gnome.Nautilus.desktop)
+2021-04-29 18:14:06,991 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:47:35,793 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:47:35,793 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:47:35,793 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:47:35,793 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:47:35,805 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:47:36,378 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:47:36,541 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:47:36,730 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:47:37,301 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:47:37,456 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:47:37,842 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:47:44,456 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:47:44,456 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:47:44,456 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:47:44,456 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:47:44,468 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:47:44,699 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:47:44,940 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 9 results
+2021-04-29 18:47:45,039 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:47:45,132 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:47:45,357 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Code - OSS (/usr/share/applications/code-oss.desktop)
+2021-04-29 18:47:45,371 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:48:18,038 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:48:18,038 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:48:18,038 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:48:18,038 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:48:18,050 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:48:18,829 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:48:19,046 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 9 results
+2021-04-29 18:48:19,093 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:48:19,185 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:48:19,370 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Code - OSS (/usr/share/applications/code-oss.desktop)
+2021-04-29 18:48:19,385 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:48:25,228 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:48:25,229 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:48:25,229 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-04-29 18:48:25,229 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 5120, H: 1440
+2021-04-29 18:48:25,241 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
+2021-04-29 18:48:25,536 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 6 results
+2021-04-29 18:48:25,781 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 5 results
+2021-04-29 18:48:25,989 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 3 results
+2021-04-29 18:48:26,152 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 4 results
+2021-04-29 18:48:26,589 | INFO | ulauncher.api.shared.action.LaunchAppAction: run() | Run application Files (/usr/share/applications/org.gnome.Nautilus.desktop)
+2021-04-29 18:48:26,598 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 10 results
