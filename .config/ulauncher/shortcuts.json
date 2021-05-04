@@ -83,8 +83,8 @@
         "id": "b5f5e747-60cd-4387-9638-6c2f07d3435c",
         "name": "Facebook",
         "keyword": "facebook",
-        "cmd": "google-chrome-stable https://www.facebook.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-facebook.svg",
+        "cmd": "firefox-developer-edition https://www.facebook.com",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-facebook.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507576.3347735
@@ -93,8 +93,8 @@
         "id": "ab2ebf42-af29-4b7b-9d44-7f3f64c0c3e5",
         "name": "Twitter",
         "keyword": "twitter",
-        "cmd": "google-chrome-stable https://twitter.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-twitter.svg",
+        "cmd": "firefox-developer-edition https://twitter.com",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-twitter.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507619.1803539
@@ -103,8 +103,8 @@
         "id": "6ff0cb09-25d0-4dd9-9c27-981f1737db3d",
         "name": "Linkedin",
         "keyword": "linkedin",
-        "cmd": "google-chrome-stable https://www.linkedin.com/feed",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-linkedin.svg",
+        "cmd": "firefox-developer-edition https://www.linkedin.com/feed",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-linkedin.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507644.1589816
@@ -113,8 +113,8 @@
         "id": "ded170f8-9c0b-4b34-aec1-83618bc8d315",
         "name": "Gitlab",
         "keyword": "gitlab",
-        "cmd": "google-chrome-stable https://gitlab.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-gitlab.svg",
+        "cmd": "firefox-developer-edition https://gitlab.com",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-gitlab.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507699.2166052
@@ -123,8 +123,8 @@
         "id": "adbdb930-fa14-4e4e-8f0e-426c798d0363",
         "name": "Github",
         "keyword": "github",
-        "cmd": "google-chrome-stable https://github.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-github.svg",
+        "cmd": "firefox-developer-edition https://github.com",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-github.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507726.075348
@@ -133,8 +133,8 @@
         "id": "c187e3fc-f7aa-42f2-9816-c2a077cbee18",
         "name": "Gmail",
         "keyword": "mail",
-        "cmd": "google-chrome-stable https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/icons8-gmail.svg",
+        "cmd": "firefox-developer-edition https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-gmail.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616508092.3992312
@@ -143,8 +143,8 @@
         "id": "70ce7ec8-bb70-418b-a1bd-b727e7888519",
         "name": "Nucleo",
         "keyword": "nucleo",
-        "cmd": "google-chrome-stable https://nucleoapp.com/app/",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/nucleo.svg",
+        "cmd": "firefox-developer-edition https://nucleoapp.com/app/",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/nucleo.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616513345.5865958
@@ -154,7 +154,7 @@
         "name": "Polybar Hide",
         "keyword": "polybarhide",
         "cmd": "killall -q polybar",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/polybar.svg",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/polybar.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1617093730.1938426
@@ -164,9 +164,19 @@
         "name": "Polybar Show",
         "keyword": "polybarshow",
         "cmd": "$HOME/.config/polybar/material/launch.sh",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/Icons/polybar.svg",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/polybar.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1617093798.014599
+    },
+    "f99c536b-b85e-4beb-9f69-64ca49832813": {
+        "id": "f99c536b-b85e-4beb-9f69-64ca49832813",
+        "name": "Proton Mail",
+        "keyword": "proton-mail",
+        "cmd": "firefox-developer-edition https://mail.protonmail.com/inbox",
+        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-physique-96.png",
+        "is_default_search": true,
+        "run_without_argument": true,
+        "added": 1620115826.0045936
     }
 }
