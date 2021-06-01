@@ -84,7 +84,7 @@
         "name": "Facebook",
         "keyword": "facebook",
         "cmd": "google-chrome-stable https://www.facebook.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-facebook.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-facebook.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507576.3347735
@@ -94,7 +94,7 @@
         "name": "Twitter",
         "keyword": "twitter",
         "cmd": "google-chrome-stable https://twitter.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-twitter.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-twitter.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507619.1803539
@@ -104,7 +104,7 @@
         "name": "Linkedin",
         "keyword": "linkedin",
         "cmd": "google-chrome-stable https://www.linkedin.com/feed",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-linkedin.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-linkedin.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507644.1589816
@@ -114,7 +114,7 @@
         "name": "Gitlab",
         "keyword": "gitlab",
         "cmd": "google-chrome-stable https://gitlab.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-gitlab.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-gitlab.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507699.2166052
@@ -124,7 +124,7 @@
         "name": "Github",
         "keyword": "github",
         "cmd": "google-chrome-stable https://github.com",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-github.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-github.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616507726.075348
@@ -134,7 +134,7 @@
         "name": "Gmail",
         "keyword": "mail",
         "cmd": "google-chrome-stable https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-gmail.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-gmail.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616508092.3992312
@@ -144,7 +144,7 @@
         "name": "Nucleo",
         "keyword": "nucleo",
         "cmd": "google-chrome-stable https://nucleoapp.com/app/",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/nucleo.svg",
+        "icon": "~/.config/ulauncher/icons/nucleo.svg",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1616513345.5865958
@@ -154,7 +154,7 @@
         "name": "Polybar Hide",
         "keyword": "polybarhide",
         "cmd": "killall -q polybar",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/polybar.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-dock-de-mac-96.png",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1617093730.1938426
@@ -164,7 +164,7 @@
         "name": "Polybar Show",
         "keyword": "polybarshow",
         "cmd": "$HOME/.config/polybar/material/launch.sh",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/polybar.svg",
+        "icon": "~/.config/ulauncher/icons/icons8-dock-de-mac-96.png",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1617093798.014599
@@ -174,7 +174,7 @@
         "name": "Proton Mail",
         "keyword": "proton-mail",
         "cmd": "google-chrome-stable https://mail.protonmail.com/inbox",
-        "icon": "~/Documents/Projects/Altdx/Dotfiles/icons/icons8-physique-96.png",
+        "icon": "~/.config/ulauncher/icons/icons8-physique-96.png",
         "is_default_search": true,
         "run_without_argument": true,
         "added": 1620115826.0045936

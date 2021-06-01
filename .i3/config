@@ -17,6 +17,7 @@ hide_edge_borders none
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font xft:URWGothic-Book 14
+# font xft:Ubuntu 16
 
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -36,10 +37,14 @@ bindsym $mod+Tab exec rofi -show window
 ################################################################################################
 
 exec --no-startup-id volumeicon
-#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-#exec --no-startup-id pulseaudio
-#exec --no-startup-id pa-applet
+# bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+# exec --no-startup-id pulseaudio
+# exec --no-startup-id pa-applet
 bindsym $mod+Ctrl+m exec pavucontrol
+
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 
 ################################################################################################
 
@@ -141,16 +146,16 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-assign [class="Signal"] $ws1
-assign [class="TelegramDesktop"] $ws1
-assign [class="discord"] $ws1
-assign [class="(?i)todoist"] $ws2
-assign [class="(?i)standard notes"] $ws2
-assign [class="(?i)bluemail"] $ws2
-
-assign [class="jetbrains-idea"] $ws3
-
-assign [class="(?i)@molotov/desktop-wrapper"] $ws7
+assign [class="(?i)Signal"] $ws1
+assign [class="(?i)TelegramDesktop"] $ws1
+assign [class="(?i)discord"] $ws1
+assign [class="(?i)Mailspring"] $ws1
+assign [class="(?i)Boostnote"] $ws2
+assign [class="(?i)beekeeper-studio"] $ws2
+assign [class="(?i)jetbrains-idea"] $ws3
+assign [class="(?i)firefoxdeveloperedition"] $ws3
+assign [class="(?i)Spotify"] $ws7
+assign [class="(?i)@molotov"] $ws7
 
 # Open specific applications in floating mode
 for_window [class="(?i)Clipgrab"] floating enable border pixel 1
@@ -176,20 +181,25 @@ for_window [class="(?i)Org.gnome.Nautilus"] floating enable border pixel 1
 for_window [class="(?i)Xarchiver"] floating enable border pixel 1
 for_window [class="(?i)Viewnior"] floating enable border pixel 1
 for_window [class="(?i)i3-frame"] floating enable border pixel 1
-for_window [class="(?i)@molotov/desktop-wrapper"] floating enable border pixel 1
+for_window [class="(?i)Spotify"] floating enable border pixel 1
+for_window [class="(?i)@molotov"] floating enable border pixel 1
+for_window [class="(?i)TelegramDesktop"] floating enable border pixel 1
+for_window [class="(?i)Signal"] floating enable border pixel 1
+for_window [class="(?i)discord"] floating enable border pixel 1
+for_window [class="(?i)Mailspring"] floating enable border pixel 1
 for_window [class="(?i)1password"] floating enable border pixel 1
 for_window [class="(?i)polkit-gnome-authentication-agent-1"] floating enable border pixel 1
 for_window [class="(?i)manjaro-settings-manager"] floating enable border pixel 1
 for_window [class="(?i)kvantumviewer"] floating enable border pixel 1
 for_window [class="(?i)rofi"] floating enable border pixel 1
 for_window [class="(?i)code-oss"] floating enable border pixel 1
-for_window [class="(?i)jetbrains space"] floating enable border pixel 1
+for_window [class="(?i)jetbrains-idea"] floating enable border pixel 1
 for_window [class="(?i)firefoxdeveloperedition"] floating enable border pixel 1
+for_window [class="(?i)terminator"] floating enable border pixel 1
 for_window [title="File Transfer*"] floating enable border pixel 1
 for_window [title="i3_help"] floating enable sticky enable border pixel 1
 for_window [title="(?i)ulauncher"] floating enable
 for_window [title="(?i)wps"] floating enable border pixel 1
-for_window [title="(?i)calculator"] floating enable border pixel 1
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -202,7 +212,7 @@ bindsym $mod+Shift+r restart
 
 # Set shut down, restart and locking features
 bindsym $mod+Control+Delete mode "$mode_system"
-set $mode_system  (R)eboot |  (S)hutdown
+set $mode_system (R)eboot | (S)hutdown
 mode "$mode_system" {
     bindsym r exec --no-startup-id i3exit reboot, mode "default"
     bindsym s exec --no-startup-id i3exit shutdown, mode "default"
@@ -214,7 +224,7 @@ mode "$mode_system" {
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "$resize"
-set $resize  Resize
+set $resize Resize
 mode "$resize" {
         bindsym Left resize shrink width 5 px or 5 ppt
         bindsym Shift+Left resize shrink width 20 px or 20 ppt
@@ -243,8 +253,8 @@ exec --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
-exec xrandr --output DP-0 --mode 5120x1440
-exec --no-startup-id xset r rate 180 50
+exec xrandr --output HDMI-0 --mode 4096x2160 --rate 120
+exec --no-startup-id xset r rate 200 50
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/material/launch.sh
@@ -268,15 +278,15 @@ exec_always --no-startup-id ulauncher
 new_window 1pixel
 
 # Set inner/outer gaps
-gaps inner 5
+gaps inner 6
 gaps outer 0
 
 # Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
+# smart_gaps on
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
+smart_borders no_gaps
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
