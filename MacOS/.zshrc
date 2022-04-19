@@ -8,8 +8,8 @@ setopt EXTENDED_GLOB
 
 export DEFAULT_USER=$USER
 export EDITOR=vim
-# export DENO_INSTALL="$HOME/.deno"
-# export PATH="$DENO_INSTALL/bin:$PATH"
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 
