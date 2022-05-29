@@ -16,9 +16,18 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Aliases
+# Aliases docker
 alias dkrmc='docker rm $(docker ps -a -q) -f -v'
 alias dkrmi='docker rmi $(docker images -a -q) -f'
 alias dkrmv='docker volume prune -f'
 alias dkrmn='docker network prune -f'
 alias dkprune='docker system prune -a -f'
+
+# Aliases projects
+alias ooneex-ruby='cd /Volumes/Projects/Ooneex/Ruby'
+alias ooneex-core='cd /Volumes/Projects/Ooneex/Core'
+alias ooneex-sapphire='cd /Volumes/Projects/Ooneex/Sapphire'
+alias alphacap-plateform-v1='cd /Volumes/Projects/Alphacap/Plateform-v1'
+
+# Fig post block. Keep at the bottom of this file.
+#. "$HOME/.fig/shell/zshrc.post.zsh"
