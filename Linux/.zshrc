@@ -24,10 +24,8 @@ alias dkrmn='docker network prune -f'
 alias dkprune='docker system prune -a -f'
 
 # Aliases projects
-alias ooneex-ruby='cd /Volumes/Projects/Ooneex/Ruby'
-alias ooneex-core='cd /Volumes/Projects/Ooneex/Core'
-alias ooneex-sapphire='cd /Volumes/Projects/Ooneex/Sapphire'
-alias alphacap-plateform-v1='cd /Volumes/Projects/Alphacap/Plateform-v1'
-
-# Fig post block. Keep at the bottom of this file.
-#. "$HOME/.fig/shell/zshrc.post.zsh"
+alias ooneex-ruby='cd ~/Documents/Projects/Ooneex/Ruby'
+alias ooneex-core='cd ~/Documents/Projects/Ooneex/Core'
+alias ooneex-sapphire='cd ~/Documents/Projects/Ooneex/Sapphire'
+alias ooneex-cli='cd ~/Documents/Projects/Ooneex/CLI'
+alias ooneex-components='cd ~/Documents/Projects/Ooneex/Components'
